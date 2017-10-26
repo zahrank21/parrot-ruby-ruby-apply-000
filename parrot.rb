@@ -1,6 +1,6 @@
 
 
-def parrot
+def parrot(phrase)
   puts phrase
   return phrase
   if phrase == nil
