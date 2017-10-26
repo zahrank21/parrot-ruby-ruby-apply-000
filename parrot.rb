@@ -1,6 +1,10 @@
 
 
 def parrot
-  puts "Squawk!"
-  return "Squawk!"
+  puts phrase
+  return phrase
+  if phrase == nil
+    puts "Squawk!"
+    return "Squawk!"
+  end
 end
